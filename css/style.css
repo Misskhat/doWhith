@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
 }
 
 a{
@@ -22,6 +25,57 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* ================= Navbar Start Here ================= */
+
+#navbar{
+    margin-top: 23px;
+}
+
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(2px);
+}
+
+.logo{
+    width: 20%;
+    cursor: pointer;
+}
+
+.menu{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    color: var(--Primary-Neutral-600, #606D93);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu li:hover{
+    color: var(--Primary-Neutral-900, #192252);
+    font-size: 18px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.nav_btn{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav_btn a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 40px;
+    background: #6345D5;
+    border-radius: 8px;
+}
+
 /* ================= Navbar End Here ================= */
 
 
