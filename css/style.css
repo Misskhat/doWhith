@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
 /* ================= Navbar Start Here ================= */
 
 #navbar{
-    margin-top: 23px;
+    padding-top: 23px;
 }
 
 .nav_wrapper{
@@ -80,8 +80,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-/* ================= Navbar Start Here ================= */
-/* ================= Navbar End Here ================= */
+/* ================= Banner Start Here ================= */
+
+#banner{
+    
+}
+
+
+/* ================= Banner End Here ================= */
 
 
 
