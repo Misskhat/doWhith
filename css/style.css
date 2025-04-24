@@ -224,7 +224,7 @@ h1,h2,h3,h4,h5,h6{
 
 #counter{
     width: 100%;
-    height: 1724px;
+    /* height: 1724px; */
     background: #201353;
     padding-top: 522px;
 }
@@ -288,8 +288,40 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-/* ================= Navbar Start Here ================= */
-/* ================= Navbar End Here ================= */
+/* ================= Feature Start Here ================= */
+#feature{
+    padding: 100px 0;
+    background: #201353;
+}
+
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature_heading h2{
+    max-width: 514px;
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature_heading p{
+    max-width: 555px;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 18px 0;
+}
+
+.quick_transction{
+    width: 368px;
+}
+
+
+/* ================= Feature End Here ================= */
 
 
 
