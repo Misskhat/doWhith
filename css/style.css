@@ -318,6 +318,9 @@ h1,h2,h3,h4,h5,h6{
 
 .feature_wrapper{
     margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .quick_transction{
@@ -341,6 +344,73 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     line-height: 150%;
 }
+
+.quick_transction .prograss{
+    width: 100%;
+    height: 4px;
+    background: #EFF3FA;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.quick_transction .prograss::after{
+    position: absolute;
+    content: "";
+    border-radius: 2px;
+    background-color: #6245D5;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+}
+
+.feature_wrapper .transaction_history{
+    width: 368px;
+    border-radius: 16px;
+    border: 1.5px solid #2C1A74;
+    padding: 24px;
+}
+
+.transaction_history .transction_header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.transction_header h4{
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.transaction_history .dammy1{
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+}
+
+.transaction_history .dammy2{
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 10px;
+}
+
+.transaction_history .dammy3{
+    width: 320px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 26px;
+}
+
+
 /* ================= Feature End Here ================= */
 
 
