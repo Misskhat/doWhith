@@ -290,8 +290,10 @@ h1,h2,h3,h4,h5,h6{
 
 /* ================= Feature Start Here ================= */
 #feature{
-    padding: 100px 0;
+    padding-top: 100px;
     background: #201353;
+    position: relative;
+    overflow: hidden;
 }
 
 .feature_heading{
@@ -315,9 +317,12 @@ h1,h2,h3,h4,h5,h6{
     line-height: normal;
     padding: 18px 0;
 }
+.feature_main{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
 
 .feature_wrapper{
-    margin-top: 48px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -408,8 +413,15 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.30);
     margin-top: 26px;
+    
 }
 
+.feature_img{
+    width: 731px;
+    position: absolute;
+    bottom: -50px;
+    right: 12%;
+}
 
 /* ================= Feature End Here ================= */
 
