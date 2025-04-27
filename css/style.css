@@ -461,6 +461,7 @@ h1,h2,h3,h4,h5,h6{
     left: 50%;
     background: red;
     border-radius: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .video_detail h4{
@@ -501,12 +502,62 @@ h1,h2,h3,h4,h5,h6{
     line-height: normal;
 }
 
+
+.brand_header h3{
+    color: #848FAC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+
+.brand_wrapper{
+    margin-top: 32px;
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.brand_logo{
+    width: 208px;
+}
+
+.brand_logo img{
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
 /* ================= Video End Here ================= */
 
 
 
 /* ================= Navbar Start Here ================= */
 /* ================= Navbar End Here ================= */
+
+
+
+
+/* ================= Navbar Start Here ================= */
+/* ================= Navbar End Here ================= */
+
+
+
+
+/* ================= Navbar Start Here ================= */
+/* ================= Navbar End Here ================= */
+
+
+
+
+
+/* ================= Navbar Start Here ================= */
+/* ================= Navbar End Here ================= */
+
 
 
 
