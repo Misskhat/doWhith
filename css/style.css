@@ -536,8 +536,43 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-/* ================= Navbar Start Here ================= */
-/* ================= Navbar End Here ================= */
+/* ================= Price Start Here ================= */
+#price{
+    padding: 100px 0;
+}
+
+.price_heading{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.price_heading h3{
+    color:#192252;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price_heading p{
+    padding-top: 24px;
+    color:#848FAC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.price_wrapper{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+
+
+/* ================= Price End Here ================= */
+
 
 
 
