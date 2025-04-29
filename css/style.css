@@ -778,8 +778,13 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-/* ================= Navbar Start Here ================= */
-/* ================= Navbar End Here ================= */
+/* ================= Review and Contact Start Here ================= */
+#review{
+    padding: 100px 0;
+    background: #201353;
+}
+
+/* ================= Review and Contact End Here ================= */
 
 
 
