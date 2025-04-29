@@ -565,10 +565,139 @@ h1,h2,h3,h4,h5,h6{
 .price_wrapper{
     margin-top: 64px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 80px;
 }
 
+.package_main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+}
+
+.package_element{
+    width: 515px;
+    border-radius: 16px;
+    border: 1.5px solid #EFF3FA;
+    background: #FFF;
+    padding: 24px;
+    display: flex;
+    column-gap: 23px;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+
+.package_element_full{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.package_element_type .package_element_type_header{
+    display: flex;
+    column-gap: 10px;
+}
+
+.package_element_type .package_element_type_header h3{
+    color: #192252;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_element_type .package_element_type_header button{
+    border: none;
+    color: #219653;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4px 12px;
+    border-radius: 11px;
+    background: rgba(33, 150, 83, 0.08);
+    transition: all linear 0.3s;
+}
+
+.package_element_type_para{
+    padding-top: 8px;
+    max-width: 236px;
+    color:  #848FAC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_element_charge .package_element_charge_amount{
+    color: #192252;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_element_charge .package_element_charge_time{
+    color: #848FAC;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_element:hover{
+    background: #6245D5;
+    border: 1.5px solid #6245D5;
+}
+
+.package_element:hover .package_element_type_header h3, .package_element:hover .package_element_charge_amount{
+    color: #FFF;
+}
+
+.package_element:hover .package_element_type_header button{
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.package_element:hover .package_element_type_para, .package_element:hover .package_element_charge_time{
+    color: rgba(255, 255, 255, 0.64);
+
+}
+
+.package_element_selection input[type='radio']::after{
+    margin-top: 10px;
+    position: relative;
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1.5px solid #848FAC;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+}
+
+.package_element_selection input[type="radio"]:checked::after{
+    margin-top: 10px;
+    position: relative;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #6245D5;
+    border: 5px solid #fff;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+}
 
 
 /* ================= Price End Here ================= */
