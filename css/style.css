@@ -567,6 +567,8 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: space-between;
     column-gap: 80px;
+    align-items: start;
+
 }
 
 .package_main{
@@ -697,6 +699,76 @@ h1,h2,h3,h4,h5,h6{
     left: 50%;
     display: inline-block;
     transform: translate(-50%, -50%);
+}
+
+.plan_main{
+    width: 525px;
+    padding: 52px;
+    background: #F7F7F7;
+    border-radius: 16px;
+}
+
+.plan_btn{
+    border-radius: 40px;
+    background: #FFF;
+    padding: 4px;
+    width: 180px;
+    margin-bottom: 53px;
+
+}
+
+.plan_btn button{
+    border: none;
+    background: transparent;
+    padding: 12px 16px;
+    color: #848FAC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.plan_btn .active{
+    border: none;
+    background: #FC9770;
+    padding: 12px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;
+}
+
+.plan_items{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+}
+
+.plan_item_box{
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_items .plan_items_name{
+    color:  #192252;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.plan_items .plan_items_img{
+    width: 24px;
+    height: 24px;
+}
+
+.plan_items:last-child{
+    padding-bottom: 0px;
 }
 
 
