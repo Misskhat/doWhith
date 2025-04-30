@@ -784,6 +784,196 @@ h1,h2,h3,h4,h5,h6{
     background: #201353;
 }
 
+.review_comment_form{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.review_comment{
+    width: 490px;
+
+}
+
+.review_comment_heading h3{
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.review_comment_heading p{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.semiclone_img{
+   padding: 64px 0 48px; 
+}
+
+.review_comment_statement_detailes{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+}
+
+.review_comment_statement_person{
+    padding: 46px 0;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+}
+
+.review_photo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.review_photo_container{
+    width: 64px;
+    height: 64px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.review_photo_container:nth-child(2){
+    opacity: 0.75;
+}
+.review_photo_container:nth-child(3){
+    opacity: 0.50;
+}
+.review_photo_container:nth-child(4){
+    opacity: 0.25;
+}
+
+.review_photo_container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.reviewer_photo_section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 24px;
+}
+
+.review_photo_slider{
+    height: 64px;
+    width: 64px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid rgba(255, 255, 255, 0.64);
+    cursor: pointer;
+}
+
+
+.review_form{
+    width: 600px;
+    padding: 64px 80px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.review_form_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.review_form_header h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.review_form_user{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form_group label{
+    display: block;
+    margin-bottom: 16px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+}
+
+.form_group input{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 14px 24px;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.form_group textarea{
+    width: 440px;
+    height: 80px;
+    padding: 14px 10px 14px 24px;
+    border-radius: 8px;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    border: none;
+}
+
+.review_form_user button{
+    margin-top: 40px;
+    margin-bottom: 24px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #FC9770;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.2px;
+    border: none;
+}
+
+.form_shortnote h3{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%; /* 21px */
+    text-align: right;
+}
+
+.form_shortnote span{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+
 /* ================= Review and Contact End Here ================= */
 
 
